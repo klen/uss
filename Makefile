@@ -13,7 +13,7 @@ release:
 	git push --tags
 
 commit:
-	git commit -am 'wip'
+	git commit -am 'wip' || true
 
 upload: build commit release
 	npm publish
