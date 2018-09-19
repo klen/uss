@@ -333,7 +333,7 @@ body { font-size: 16px; }
 
 .u-flex9 { flex: 9; }
 
-.u-bold { font-weight: bold; }
+.u-bold { font-weight: 500; }
 
 .u-center { text-align: center; }
 

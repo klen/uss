@@ -12,7 +12,10 @@ release:
 	git push --all
 	git push --tags
 
-upload: build release
+commit:
+	git commit -am 'wip'
+
+upload: build commit release
 	npm publish
 
 package.json:
