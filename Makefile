@@ -4,7 +4,12 @@ build: package.json
 	    --output-style=compact $(CURDIR)/src/uss.sass > $(CURDIR)/dist/uss.css
 
 release:
+	git checkout develop
 	bumpversion patch
+	git checkout master
+	git rebase develop
+	git checkout develop
+	git push --all --tags
 
 upload: build release
 	npm publish
