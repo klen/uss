@@ -9,7 +9,8 @@ release:
 	git checkout master
 	git rebase develop
 	git checkout develop
-	git push --all --tags
+	git push --all
+	git push --tags
 
 upload: build release
 	npm publish
