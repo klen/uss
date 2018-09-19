@@ -6,7 +6,7 @@ build: package.json
 release:
 	bumpversion patch
 
-upload: build
+upload: build release
 	npm publish
 
 package.json:
