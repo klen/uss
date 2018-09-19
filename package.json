@@ -1,0 +1,11 @@
+{
+    "name": "uss",
+    "description": "USS is a micro CSS Framework",
+    "version": "0.0.1",
+    "author": "Kirill Klenov <horneds@gmail.com>",
+    "main": "dist/uss.css",
+    "sass": "src/uss.sass",
+    "devDependencies": {
+        "node-sass": "^4.9.3"
+    }
+}
