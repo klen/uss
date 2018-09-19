@@ -1,0 +1,73 @@
+$spacers: 0 .25rem .5rem 1rem 2rem 4rem !default
+
+@each $val in $spacers
+
+  $idx: index($spacers, $val)
+  $num: $idx - 1
+
+  .u-p#{$num}
+    padding: $val !important
+
+  .u-pt#{$num}
+    padding-top: $val !important
+
+  .u-pb#{$num}
+    padding-bottom: $val !important
+
+  .u-pl#{$num}
+    padding-left: $val !important
+
+  .u-pr#{$num}
+    padding-right: $val !important
+
+  .u-pv#{$num}
+    padding-top: $val !important
+    padding-bottom: $val !important
+
+  .u-ph#{$num}
+    padding-right: $val !important
+    padding-left: $val !important
+
+  .u-m#{$num}
+    margin: $val !important
+
+  .u-mt#{$num}
+    margin-top: $val !important
+
+  .u-mb#{$num}
+    margin-bottom: $val !important
+
+  .u-ml#{$num}
+    margin-left: $val !important
+
+  .u-mr#{$num}
+    margin-right: $val !important
+
+  .u-mh#{$num}
+    margin-right: $val !important
+    margin-left: $val !important
+
+  .u-mv#{$num}
+    margin-top: $val !important
+    margin-bottom: $val !important
+
+.u-ma
+  margin: auto !important;
+
+.u-mta
+  margin-top: auto !important;
+
+.u-mla
+  margin-left: auto !important;
+
+.u-mra
+  margin-right: auto !important;
+
+.u-mba
+  margin-bottom: auto !important;
+
+.u-mha
+  margin: 0 auto !important;
+
+.u-mva
+  margin: 0 auto !important;

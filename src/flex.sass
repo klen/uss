@@ -1,0 +1,49 @@
+.u-flex
+  display: flex !important
+
+.u-flex-inline
+  display: inline-flex !important
+
+.u-flex--reverse
+  flex-direction: row-reverse
+
+.u-flex--column
+  flex-direction: column
+
+.u-flex--column-reverse
+  flex-direction: column-reverse
+
+.u-flex--space-between
+  justify-content: space-between
+
+.u-flex--center
+  justify-content: center
+
+.u-flex--start
+  justify-content: flex-start
+
+.u-flex--end
+  justify-content: flex-end
+
+.u-flex--align-start
+  align-items: flex-start
+
+.u-flex--align-center
+  align-items: center
+
+.u-flex--align-end
+  align-items: flex-end
+
+.u-flex--centered
+  align-items: center
+  justify-content: center
+
+.u-flexa
+  flex: auto
+
+.u-flex--wrap
+  flex-wrap: wrap
+
+@each $idx in (1 2 3 4 5 6 7 8 9)
+  .u-flex#{$idx}
+    flex: $idx

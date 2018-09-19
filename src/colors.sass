@@ -1,0 +1,31 @@
+$white:         #ffffff !default
+$black:         #2e3346 !default
+$yellow:        #ffff99 !default
+$brown:         #b15928 !default
+$blue-l:        #a6cee3 !default
+$blue:          #1f78b4 !default
+$green-l:       #b2df8a !default
+$green:         #33a02c !default
+$red-l:         #fb9a99 !default
+$red:           #e31a1c !default
+$orange-l:      #fdbf6f !default
+$orange:        #ff7f00 !default
+$violet-l:      #cab2d6 !default
+$violet:        #6a3d9a !default
+$gray-l:        #c0c0c0 !default
+$gray:          #808080 !default
+
+$colors: (white: $white, black: $black, yellow: $yellow, brown: $brown, blue-l: $blue-l, blue: $blue, green-l: $green-l, green: $green, red-l: $red-l, red: $red, orange-l: $orange-l, orange: $orange, violet-l: $violet-l, violet: $violet, gray-l: $gray-l, gray: $gray);
+
+$body-color:    $black !default
+
+body
+  color:        $body-color
+
+@each $cname, $cvalue in $colors
+
+  .u-#{$cname}
+    color: $cvalue
+
+  .u-bg-#{$cname}
+    background: $cvalue
