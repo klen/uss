@@ -347,6 +347,8 @@ body { font-size: 16px; }
 
 .u-upper { text-transform: uppercase; }
 
+.u-italic { font-style: italic; }
+
 body { color: #2e3346; }
 
 .u-white { color: #ffffff; }
