@@ -1,4 +1,4 @@
-/* USS v. 0.0.11 - another mini CSS framework */
+/* USS v. 0.0.12 - another mini CSS framework */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6, menu { margin: 0; padding: 0; }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
@@ -351,69 +351,69 @@ body { font-size: 16px; }
 
 body { color: #2e3346; }
 
-.u-white { color: #ffffff; }
+.u-white { color: #ffffff !important; }
 
-.u-bg-white { background: #ffffff; }
+.u-bg-white { background: #ffffff !important; }
 
-.u-black { color: #2e3346; }
+.u-black { color: #2e3346 !important; }
 
-.u-bg-black { background: #2e3346; }
+.u-bg-black { background: #2e3346 !important; }
 
-.u-yellow { color: #ffff99; }
+.u-yellow { color: #ffff99 !important; }
 
-.u-bg-yellow { background: #ffff99; }
+.u-bg-yellow { background: #ffff99 !important; }
 
-.u-brown { color: #b15928; }
+.u-brown { color: #b15928 !important; }
 
-.u-bg-brown { background: #b15928; }
+.u-bg-brown { background: #b15928 !important; }
 
-.u-blue-l { color: #a6cee3; }
+.u-blue-l { color: #a6cee3 !important; }
 
-.u-bg-blue-l { background: #a6cee3; }
+.u-bg-blue-l { background: #a6cee3 !important; }
 
-.u-blue { color: #1f78b4; }
+.u-blue { color: #1f78b4 !important; }
 
-.u-bg-blue { background: #1f78b4; }
+.u-bg-blue { background: #1f78b4 !important; }
 
-.u-green-l { color: #b2df8a; }
+.u-green-l { color: #b2df8a !important; }
 
-.u-bg-green-l { background: #b2df8a; }
+.u-bg-green-l { background: #b2df8a !important; }
 
-.u-green { color: #33a02c; }
+.u-green { color: #33a02c !important; }
 
-.u-bg-green { background: #33a02c; }
+.u-bg-green { background: #33a02c !important; }
 
-.u-red-l { color: #fb9a99; }
+.u-red-l { color: #fb9a99 !important; }
 
-.u-bg-red-l { background: #fb9a99; }
+.u-bg-red-l { background: #fb9a99 !important; }
 
-.u-red { color: #e31a1c; }
+.u-red { color: #e31a1c !important; }
 
-.u-bg-red { background: #e31a1c; }
+.u-bg-red { background: #e31a1c !important; }
 
-.u-orange-l { color: #fdbf6f; }
+.u-orange-l { color: #fdbf6f !important; }
 
-.u-bg-orange-l { background: #fdbf6f; }
+.u-bg-orange-l { background: #fdbf6f !important; }
 
-.u-orange { color: #ff7f00; }
+.u-orange { color: #ff7f00 !important; }
 
-.u-bg-orange { background: #ff7f00; }
+.u-bg-orange { background: #ff7f00 !important; }
 
-.u-violet-l { color: #cab2d6; }
+.u-violet-l { color: #cab2d6 !important; }
 
-.u-bg-violet-l { background: #cab2d6; }
+.u-bg-violet-l { background: #cab2d6 !important; }
 
-.u-violet { color: #6a3d9a; }
+.u-violet { color: #6a3d9a !important; }
 
-.u-bg-violet { background: #6a3d9a; }
+.u-bg-violet { background: #6a3d9a !important; }
 
-.u-gray-l { color: #c0c0c0; }
+.u-gray-l { color: #c0c0c0 !important; }
 
-.u-bg-gray-l { background: #c0c0c0; }
+.u-bg-gray-l { background: #c0c0c0 !important; }
 
-.u-gray { color: #808080; }
+.u-gray { color: #808080 !important; }
 
-.u-bg-gray { background: #808080; }
+.u-bg-gray { background: #808080 !important; }
 
 .u-clickable { cursor: pointer; }
 
