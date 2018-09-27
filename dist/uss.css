@@ -1,4 +1,4 @@
-/* USS v. 0.0.10 - another mini CSS framework */
+/* USS v. 0.0.11 - another mini CSS framework */
 html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6, menu { margin: 0; padding: 0; }
 
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
@@ -420,6 +420,10 @@ body { color: #2e3346; }
 .u-absolute { position: absolute; }
 
 .u-relative { position: relative; }
+
+.u-block { display: block !important; }
+
+.u-inline, .u-inline-block { display: inline-block !important; }
 
 .u-none { display: none !important; }
 
