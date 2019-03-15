@@ -1,7 +1,7 @@
 {
     "name": "uss",
     "description": "USS is a micro CSS Framework",
-    "version": "0.0.15",
+    "version": "0.0.16",
     "author": "Kirill Klenov <horneds@gmail.com>",
     "main": "dist/uss.css",
     "sass": "src/uss.sass",
