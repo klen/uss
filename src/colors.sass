@@ -21,7 +21,7 @@ $gray-l:        #c0c0c0 !default
 $gray:          #808080 !default
 $gray-d:        darken($gray, 25%) !default
 
-$colors: (white: $white, black: $black, yellow: $yellow, brown: $brown, blue-l: $blue-l, blue: $blue, green-l: $green-l, green: $green, red-l: $red-l, red: $red, orange-l: $orange-l, orange: $orange, violet-l: $violet-l, violet: $violet, gray-l: $gray-l, gray: $gray);
+$colors: (white: $white, black: $black, yellow: $yellow, brown: $brown, blue-l: $blue-l, blue: $blue, green-l: $green-l, green: $green, red-l: $red-l, red: $red, orange-l: $orange-l, orange: $orange, violet-l: $violet-l, violet: $violet, gray-l: $gray-l, gray: $gray)
 
 $body-color:    $black !default
 
@@ -30,8 +30,8 @@ body
 
 @each $cname, $cvalue in $colors
 
-  .u-#{$cname}
+  .u-#{"" + $cname}
     color: $cvalue !important
 
-  .u-bg-#{$cname}
+  .u-bg-#{"" + $cname}
     background: $cvalue !important

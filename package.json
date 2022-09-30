@@ -6,6 +6,6 @@
     "main": "dist/uss.css",
     "sass": "src/uss.sass",
     "devDependencies": {
-        "node-sass": "^4.9.3"
+        "sass": "^1.55.0"
     }
 }

@@ -1,11 +1,14 @@
-build: package.json
+node_modules: package.json
+	npm install
+
+build: package.json node_modules
 	@mkdir -p $(CURDIR)/dist
-	@$(CURDIR)/node_modules/.bin/node-sass \
-	    --output-style=compact $(CURDIR)/src/uss.sass > $(CURDIR)/dist/uss.css
+	$(CURDIR)/node_modules/.bin/sass \
+	    --style=compressed $(CURDIR)/src/uss.sass $(CURDIR)/dist/uss.css
 
 release:
 	git checkout develop
-	bumpversion patch
+	bump2version patch
 	git checkout master
 	git rebase develop
 	git checkout develop
